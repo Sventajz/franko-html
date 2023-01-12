@@ -1,0 +1,23 @@
+:root {
+  /* fonts */
+  --font-open-sans: "Open Sans";
+
+  /* font sizes */
+  --font-size-base: 12px;
+  --font-size-lg: 14.5px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-red: #c80205;
+  --color-gray-100: #f0f0f0;
+  --color-gray-200: #212529;
+  --color-black: #000;
+
+  /* Paddings */
+  --padding-md: 30px;
+
+  /* border radiuses */
+  --br-sm: 6px;
+  --br-md: 34px;
+}
