@@ -3,6 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <!--BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <title>
+      Gorski Kotar slideshow
+    </title>
 
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./index.css" />
@@ -15,165 +23,166 @@
   <body>
 
 <!--ovdje je navbar-->
-      <div class="navbar">
-        <div class="navnavbar-big">
-          <img class="pgz-icon" alt="" src="public/pgz.svg" />
-          <div class="li">
-            <div class="div27">
-              <img class="fpng-icon" alt="" src="public/fpng@2x.png" /><img
-                class="crtapng-icon"
-                alt=""
-                src="public/crtapng@2x.png"
-              /><img
-                class="simbol4png-icon"
-                alt=""
-                src="public/simbol4png@2x.png"
-              /><img
-                class="crtapng-icon1"
-                alt=""
-                src="public/crtapng@2x.png"
-              /><img class="npng-icon" alt="" src="public/npng@2x.png" />
-            </div>
-          </div>
-          <div class="divnavbartext">
-            <div class="hrvatski-english-container">
-              <span>HRVATSKI </span><span class="span10"> / </span
-              ><span class="english"> ENGLISH</span>
-            </div>
-          </div>
-        </div>
-      </div>
+            <nav class="navbar">
+                <img src="public/pgz.svg">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Hrvatski</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Engleski</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="ulaznice-btn"><a href="#">Kupi ulaznice</button></a>
+                    </li>
+                </ul>
+
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
 
 
-      <div class="karta">
-        <div class="div5">
-          <div class="krk-vinodol-gorski-container">
-            <span>Krk Vinodol</span
-            ><span class="gorski-kotar"> Gorski Kotar</span>
-          </div>
-          <div class="div6">
-            <div class="div7"><div class="divbefore"></div></div>
-            <div class="kateli">kašteli</div>
-            <div class="div8"><div class="divbefore1"></div></div>
-            <div class="gradovi">gradovi</div>
-            <div class="div9"><div class="divbefore1"></div></div>
-            <div class="turistike-zajednice">turističke zajednice</div>
-          </div>
-        </div>
-        <div class="div10">
-          <div class="divmap-pins">
-            <div class="div11">
-              <div class="div12">
-                <div class="span">
-                  <div class="dvorac-zrinskih">Dvorac Zrinskih</div>
-                </div>
-                <div class="span1"><div class="u-abru">u Čabru</div></div>
-              </div>
-              <div class="a">
-                <img
-                  class="pin-castlepng-icon"
-                  alt=""
-                  src="public/pincastlepng@2x.png"
-                />
-                <div class="div13">16</div>
-              </div>
-            </div>
-            <div class="div14">
-              <div class="div12">
-                <div class="span2">
-                  <div class="katel-zrinskih">Kaštel Zrinskih</div>
-                </div>
-                <div class="span3">
-                  <div class="brod-na-kupi">Brod na Kupi</div>
-                </div>
-              </div>
-              <div class="a1">
-                <img
-                  class="pin-castlepng-icon"
-                  alt=""
-                  src="public/pincastlepng1@2x.png"
-                />
-                <div class="div13">17</div>
-              </div>
-            </div>
-            <div class="div17">
-              <div class="div12">
-                <div class="span4"><div class="dvorac">Dvorac</div></div>
-                <div class="span5"><div class="severin">Severin</div></div>
-              </div>
-              <div class="a2">
-                <img
-                  class="pin-castlepng-icon"
-                  alt=""
-                  src="public/pincastlepng2@2x.png"
-                />
-                <div class="div13">18</div>
-              </div>
-            </div>
-            <div class="div20">
-              <div class="div12">
-                <div class="span4"><div class="dvorac">Dvorac</div></div>
-                <div class="span7">
-                  <div class="stara-suica">Stara Sušica</div>
-                </div>
-              </div>
-              <div class="a3">
-                <img
-                  class="pin-castlepng-icon"
-                  alt=""
-                  src="public/pincastlepng3@2x.png"
-                />
-                <div class="div13">19</div>
-              </div>
-            </div>
-            <div class="div23">
-              <div class="div12">
-                <div class="span8"><div class="manastir">Manastir</div></div>
-                <div class="span9"><div class="gomirje">Gomirje</div></div>
-              </div>
-              <div class="a4">
-                <img
-                  class="pin-castlepng-icon"
-                  alt=""
-                  src="public/pincastlepng4@2x.png"
-                />
-                <div class="div13">20</div>
-              </div>
-            </div>
-          </div>
-          <img
-            class="gorski-kotarpng-icon"
-            alt=""
-            src="public/gorski-kotarpng@2x.png"
-          />
-        </div>
-        <div class="div26"></div>
-      </div>
+<div class="karta">
+  <div class="lokacije">
+    <ul>
+      <li><a href="https://ruta.frankopani.eu/hr/ruta/gorski-kotar">Krk</a></li>
+      <li><a href="https://ruta.frankopani.eu/hr/ruta/gorski-kotar">Vinodol</a></li>
+      <li><a href="index.html">Gorski Kotar</a></li>
+    </ul>
+  </div>
+  <div class="frankopani-img-container">
+  <img src="franko.png" class="img-fluid" alt="Karta frankopanske rute Gorskog kotra">
+</div>
+
+ </div>
 
 <!--OVDJE IDE SLIDESHOW-->
 
-      <div class="slideshow">
-        <div class="component-1-wrapper">
-          <div class="component-1">
-            <img
-              class="konoba-volta-1"
-              alt=""
-              src="public/konoba-volta-1@2x.png"
-            /><img
-              class="hotel-mance-1"
-              alt=""
-              src="public/hotel-mance-1@2x.png"
-            /><img
-              class="golubinjak-1-icon"
-              alt=""
-              src="public/hotel-mance-1@2x.png"
-            />
-            <div class="konoba">
-              <div class="konoba-volta">Konoba Volta</div>
+<div class="slideshow-container">
+
+<div class="slideshow">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="public/konoba-volta.png"  class="img-fluid" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4><a href="https://gorskikotar.hr/konoba-volta/">Konoba Volta</a></h4>
+          <p>Franje Račkog 8, Fužine</p></div>
+      </div>
+      <div class="carousel-item">
+        <img src="public/hotel mance.jpg"   class="img-fluid" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4><a href="https://gorskikotar.hr/hotel-mance-2/">Hotel Mance</a></h4>
+          <p>Kralja Tomislava 2, Brod na Kupi</p></div>
+      </div>
+      <div class="carousel-item">
+        <img src="public/golub.jpg"   class="img-fluid" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4><a href="https://gorskikotar.hr/restoran-golubinjak/">Restoran Golubinjak</a></h4>
+          <p>Golubinjak, Lokve</p></div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+</div>
+
+<!--
+<!-- Image Gallery -->
+<div class="gallery">
+<div class="container">
+
+
+<h1>Recepti Frankopana</h1>
+
+
+<div class="row">
+
+
+    <div class="col-lg-4 col-sm-6">
+      <div class="thumbnail">
+        <div class="img-container">
+            <img src="recepti/juha.webp"class="galllery-img">
+            <div class="overlay">
+              <p class="caption">Caption here</p>
             </div>
-          </div>
         </div>
       </div>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <div class="thumbnail">
+        <div class="img-container">
+            <img src="recepti/kolac.webp"class="galllery-img">
+            <div class="overlay">
+              <p class="caption">Caption here</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <div class="thumbnail">
+        <div class="img-container">
+            <img src="recepti/jagoda.webp"class="galllery-img">
+            <div class="overlay">
+              <p class="caption">Caption here</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6">
+      <div class="thumbnail">
+        <div class="img-container">
+            <img src="recepti/kiflice.webp"class="galllery-img">
+            <div class="overlay">
+              <p class="caption">Caption here</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6">
+      <div class="thumbnail">
+        <div class="img-container">
+            <img src="recepti/kruh.webp" class="galllery-img">
+            <div class="overlay">
+              <p class="caption">Caption here</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6">
+      <div class="thumbnail">
+        <div class="img-container">
+            <img src="recepti/visnja.webp" class="galllery-img">
+            <div class="overlay">
+              <p class="caption">Caption here</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+</div>
+</div>
+</div>
+
 
 
 
@@ -181,62 +190,59 @@
 
 
 
-    <div class="footer">
-      <div class="div">
-        <div class="div1">
-          <div class="primorsko-goranska-upanija-2-container">
-            <span
-              >© Primorsko-goranska županija, 2023. Sva prava pridržana. </span
-            ><span class="impressum">Impressum</span>
-          </div>
-        </div>
-        <div class="div2">
-          <div class="div3">
-            <img
-              class="pgz-logopng-icon"
-              alt=""
-              src="public/pgzlogopng@2x.png"
-            /><img
-              class="logo-eupng-icon"
-              alt=""
-              src="public/logo-eupng@2x.png"
-            /><img
-              class="logo-esifpng-icon"
-              alt=""
-              src="public/logo-esifpng@2x.png"
-            />
-          </div>
-          <div class="div4">
-            <div class="nadogradnju-internetske-strani-container">
-              <span class="nadogradnju-internetske-strani-container1"
-                ><p class="nadogradnju-internetske-strani">
-                  <span
-                    >Nadogradnju internetske stranice sufinancirala je
-                    Europska unija iz Europskih strukturnih i investicijskih
-                    fondova. Više informacija na </span
-                  ><span class="impressum">www.strukturnifondovi.hr</span
-                  ><span>.</span>
-                </p>
-                <p class="nadogradnju-internetske-strani">
-                  <span
-                    >Sadržaj internetske stranice isključiva je odgovornost
-                    Primorsko-goranske županije.</span
-                  >
-                </p>
-                <p class="blank-line"><span>&nbsp;</span></p></span
-              >
-            </div>
-            <div class="posjetiteljski-centar-kraljevi">
-              Posjetiteljski centar Kraljevica financiran je sredstvima
-              Europske unije (IPA program jadranske prekogranične suradnje
-              2007–2013) i Primorsko-goranske županije, u okviru projekta
-              “HERA – upravljanje održivim turizmom zasnovanim na zajedničkom
-              kulturnom nasljeđu Jadrana”.
-            </div>
-          </div>
-        </div>
-      </div>
+<div class="footer">
+  <hr>
+
+  <div class="footer-right">
+    <span>© Primorsko-goranska županija, 2023. Sva prava pridržana. </span>
+    <span class="impressum"><a href="https://frankopani.eu/impressum/">Impressum</a></span>
+  </div>
+  <div class="foot-img">
+    <img
+      class="pgz-logopng-icon"
+      alt=""
+      src="public/pgzlogopng@2x.png" class="img-fluid"/>
+      
+      <img
+      class="logo-eupng-icon"
+      alt=""
+      src="public/logo-eupng@2x.png" class="img-fluid"/>
+      
+      <img
+      class="logo-esifpng-icon"
+      alt=""
+      src="public/logo-esifpng@2x.png" class="img-fluid"/>
+  </div>
+
+  <div class="foot-text">
+    <p>
+          <span
+          >Nadogradnju internetske stranice sufinancirala je
+          Europska unija iz Europskih strukturnih i investicijskih
+          fondova. Više informacija na </span
+          ><span class="impressum"><a href="www.strukturnifondovi.hr">www.strukturnifondovi.hr</a></span>
+          <span
+          >Sadržaj internetske stranice isključiva je odgovornost
+          Primorsko-goranske županije.</span>
+    </p>
+    <p>
+          Posjetiteljski centar Kraljevica financiran je sredstvima
+          Europske unije (IPA program jadranske prekogranične suradnje
+          2007–2013) i Primorsko-goranske županije, u okviru projekta
+          “HERA – upravljanje održivim turizmom zasnovanim na zajedničkom
+          kulturnom nasljeđu Jadrana”.
+    </p>
     </div>
+
+</div>
+
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
 
   </body>
 </html>
