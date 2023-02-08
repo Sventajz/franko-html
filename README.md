@@ -1,5 +1,5 @@
 
-  # Putevi frankopana restoraunt list
+  # Putevi frankopana restaurant list
 
   
 
